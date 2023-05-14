@@ -81,9 +81,8 @@ public class LoginController implements Initializable {
         sstage.getIcons().add(image);
 
         sstage.show();
-
-
     }
+
     public void cancelButtonOnAction(ActionEvent event){
         Stage stage = (Stage) CancelButton.getScene().getWindow();
         stage.close();
